@@ -1,0 +1,142 @@
+*{
+    font-family: "Inter";
+    margin: 0px;
+}
+
+#logo{
+    margin-left: 550px;
+    margin-top: -100px;
+}
+
+#cabeçalho{
+    background-color: black;
+    width: 1440px;
+    height: 475px;
+    padding: 100px 0px 0px 150px;
+    color: aliceblue;
+}
+
+#titulo-cabeçalho{
+    background-color: black ;
+    color: aliceblue;
+    padding-top: 20px;
+    font-weight: bold;
+    margin-right: 0%;
+    margin-left: 62px;
+    font-size: 60px;
+    letter-spacing: -2.5%;
+}
+
+#texto-cabeçalho{
+    background-color: black;
+    color: aliceblue;
+    padding-top: 50px;
+    font-weight: SemiBold;
+    margin-right: 0%;
+    margin-left: 62px;
+    font-size: 20px;
+}
+
+#menuinformacional{
+    display: grid;
+    color: black;
+    grid-auto-flow: column;
+    columns: auto;
+    background-color: #F9F9F9;
+    width: 1440px;
+    height: 229px;
+    padding-bottom: 75px;
+}
+
+.textoinformativo{
+    line-height: 28px;
+    top: 54px;
+    margin: 0px;
+}
+
+.Numero{
+    margin: 75px 100px 0px 150px;
+    font-size: 40px;
+    font-weight: bolder;    
+}
+
+.frase{
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 77px;
+}
+
+#secaofotoprincipal{
+    margin: 100px 0px 250px 150px;
+    width: 1440px;
+    height: 475px;
+    margin-left: 77px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;
+}
+
+#titulofotoprincipal{
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: justify;
+    margin: 650px 25px 0px 77px;
+    color: black;
+}
+
+#textofotoprincipal{
+    font-size: 24px;
+}
+
+#secaofaleconosco {
+    background-color: black;
+    top: 1478px;
+    width: 1440px;
+    height: 638px;
+    text-align: center;
+    padding: 100px 0px 0px 150px;
+}
+
+#titulofaleconosco {
+    text-align: center;
+    font-size: 32px;
+    margin: 5px;
+    color: aliceblue;
+}
+
+input{
+    width: 508px;
+    height: 72px;
+    background-color: #F9F9F9;
+    color: #303030;
+    margin-top: 50px;
+    left: 466px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+button{
+    background-color:#C07212; 
+    color: #F9F9F9;   
+    width: 286px;
+    height: 74px;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 15px 45px 20px 45px;
+    border-radius: 5px;
+    border: 0px;
+    font-family: "Raleway";
+    margin-top: 50px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #C07212;
+    color: #F9F9F9;
+    font-family: "Raleway";
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #422302;
+    transition-duration: 0.7s;
+}
